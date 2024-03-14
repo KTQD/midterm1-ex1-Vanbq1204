@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-
-        MP3 mp3 = new MP3("Song", "this is a song", "1234",123,290);
+        MP3 mp3 = new MP3("MP3 Player", "Portable music player", "MP001", 50.0f, "3 hours");
         mp3.showInfo();
-
-        Book book = new Book("Book", "This is a book", "5678", 20.99f, "John Doe", 300, "Fiction");
+        Book book = new Book("Java Programming", "Learning Java programming language", "B001", 30.0f, "John Doe", 400, "Programming");
         book.showInfo();
     }
 }
